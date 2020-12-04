@@ -1,0 +1,39 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "A simple Node.js application",
+  "main": "lib/app.js",
+  "babel": {
+    "presets": [
+      "airbnb"
+    ]
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.8",
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.12.7",
+    "babel-preset-airbnb": "^5.0.0",
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node lib/app.js",
+    "build": "babel src -d lib",
+    "lint": "eslint src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azjishlay/hello-world.git"
+  },
+  "author": "azjishlay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/azjishlay/hello-world/issues"
+  },
+  "homepage": "https://github.com/azjishlay/hello-world#readme"
+}
